@@ -1,5 +1,7 @@
 ## Why there is a difference in behavior for copying contents in primitive and non primitive type?  
    - The difference in behavior between primitive and non-primitive data types comes from the fact that what is being copied. 
+   
+   ![copy_by_value](static/copybyvalue.jpg)
     
 ```JavaScript
     check1 = function(){
@@ -13,7 +15,7 @@
     // Output -> anunay sinha
 ```
 
-
+![copy_by_ref](static/copybyref.jpg)
 
 ```JavaScript
     check2 = function(){
