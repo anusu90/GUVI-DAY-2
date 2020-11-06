@@ -1,5 +1,5 @@
 ## Why there is a difference in behavior for copying contents in primitive and non primitive type?  
-    - The difference in behavior between primitive and non-primitive data types comes from the fact that what is being copied. 
+   - The difference in behavior between primitive and non-primitive data types comes from the fact that what is being copied. 
     
 ```JavaScript
     check1 = function(){
@@ -9,6 +9,22 @@
         console.log(mainString,copyString);
     }
     check1();
+    
+    // Output -> anunay sinha
+```
+
+
+
+```JavaScript
+    check2 = function(){
+        let mainArray = ['anunay'];
+        let copyArray = mainArray;
+        copyArray[0] = 'sinha';
+        console.log(mainArray,copyArray);
+        }
+        check2();
+        
+        //Output -> [ 'sinha' ] [ 'sinha' ]
 ```
 
 
