@@ -3,9 +3,9 @@ DAY 2 OF ASSIGNMENTS OF GUVI
 
 ## LIST OF TASKS
 
-- [x] How do you copy by value a composite data type? [SOLUTION](PART-1.js )
+- [x] How do you copy by value a composite data type? [SOLUTION IS IN PART-1.JS](PART-1.js )
 - [ ] why there is a difference in behavior for copying contents in primitive and non primitive type? 
-- [x] Use typeof in all the datatypes and check the result [SOLUTION](PART-1.js )
+- [x] Use typeof in all the datatypes and check the result [SOLUTION IS IN PART-1.JS](PART-1.js )\
         typeof(1)\
         typeof(1.1)\
         typeof("1.1")\
