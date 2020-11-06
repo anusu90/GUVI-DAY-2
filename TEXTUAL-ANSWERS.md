@@ -1,5 +1,15 @@
 ## Why there is a difference in behavior for copying contents in primitive and non primitive type?  
-    - DUE
+    - The difference in behavior between primitive and non-primitive data types comes from the fact that what is being copied. 
+    
+```JavaScript
+    check1 = function(){
+        let mainString = 'anunay';
+        let copyString = mainString;
+        copyString = 'sinha';
+        console.log(mainString,copyString);
+    }
+    check1();
+```
 
 
 ## What is the difference between window, screen, and document in Javascript?
