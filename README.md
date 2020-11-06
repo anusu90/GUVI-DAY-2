@@ -3,9 +3,9 @@ DAY 2 OF ASSIGNMENTS OF GUVI
 
 ## LIST OF TASKS
 
-- [ ] How do you copy by value a composite data type?
+- [x] How do you copy by value a composite data type? [SOLUTION](PART-1.js )
 - [ ] why there is a difference in behavior for copying contents in primitive and non primitive type? 
-- [ ] Use typeof in all the datatypes and check the result
+- [x] Use typeof in all the datatypes and check the result [SOLUTION](PART-1.js )
         typeof(1)\
         typeof(1.1)\
         typeof("1.1")\
@@ -15,6 +15,6 @@ DAY 2 OF ASSIGNMENTS OF GUVI
         typeof([])\
         typeof({})\
 - [ ] Write a blog about objects and its internal representation in Javascript
-- [ ] execute and see at least 15 cli commands. like mkdir, ls etc.
+- [x] execute and see at least 15 cli commands. like mkdir, ls etc.
 - [ ] What is the difference between window, screen, and document in Javascript
 - [ ] Try the rest countries api - Extract and print the flag url of all the countries in console. use the html template - (https://restcountries.eu/rest/v2/all)
