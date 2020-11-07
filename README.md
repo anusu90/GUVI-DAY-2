@@ -17,4 +17,4 @@ DAY 2 OF ASSIGNMENTS OF GUVI
 - [x] Write a blog about objects and its internal representation in Javascript [SOLUTION IS IN TEXTUAL-ANSWERS.md](TEXTUAL-ANSWERS.md)\
 - [x] execute and see at least 15 cli commands. like mkdir, ls etc. [SOLUTION IS IN TEXTUAL-ANSWERS.md](TEXTUAL-ANSWERS.md)\
 - [x] What is the difference between window, screen, and document in Javascript [SOLUTION IS IN TEXTUAL-ANSWERS.md](TEXTUAL-ANSWERS.md)\
-- [ ] Try the rest countries api - Extract and print the flag url of all the countries in console. use the html template - (https://restcountries.eu/rest/v2/all)
+- [x] Try the rest countries api - Extract and print the flag url of all the countries in console. use the html template - (https://restcountries.eu/rest/v2/all)
