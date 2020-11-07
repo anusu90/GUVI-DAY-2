@@ -113,5 +113,8 @@ Just like we added features to the car we would sometimes need to remove feature
 
 ```
 
-Now our car is spoiler free!!
+Now our car is spoiler free!! 
+![Object-Representation](static/object-representation.png)
+
+The above diagram helps in visualizing what is happening behind the scene. Each block represents either a property or a method and to access them we use either the `.` or `[ ]`
 
