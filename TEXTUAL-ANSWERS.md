@@ -96,3 +96,22 @@ Now, the point of the car is to move around and reach from one place to another,
     // TO ACCESS THE METHOD WE DO THE FOLLOWING
 
     console.log(car.wheelSize())
+```
+We can have modifications to our car. Sometimes we add 'Spoilers' other times we install new music system. We would like to do same to our objects as well. Here is how we can do it.
+
+```JavaScript
+
+    car.spoilerPresent = true
+
+```
+
+Just like we added features to the car we would sometimes need to remove features. Maybe the spoilers are not going with the look of our car, so we would 'delete' the spoilers
+
+```JavaScript
+
+    delete car.spoilerPresent
+
+```
+
+Now our car is spoiler free!!
+
