@@ -39,6 +39,8 @@
 
 - Screen object accessible through `window.screen` gives information about the screen such as width - `screen.width` - and height - `screen.width`. This is important for correct preparation of layout and subsequent painting
 
+![window-document-screen](static/window-document-screen.png)
+
 
 ### COMMANDS USED WERE - (THESE WERE DONE ON MAC TERMINAL)
 1. clear -> *Clears the terminal*  
