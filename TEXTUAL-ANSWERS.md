@@ -1,7 +1,6 @@
 ## Why there is a difference in behavior for copying contents in primitive and non primitive type?  
    - The difference in behavior between primitive and non-primitive data types comes from the fact that what is being copied. 
-   
-   ![copy_by_value](static/copybyvalue.jpg)
+  
     
 ```JavaScript
     check1 = function(){
@@ -14,8 +13,9 @@
     
     // Output -> anunay sinha
 ```
-
-![copy_by_ref](static/copybyref.jpg)
+   ![copy_by_value](static/copybyvalue.jpg)
+   
+   Since value is directly being copied any change in the second variable does not impact the first variable, which in the next case is not true.
 
 ```JavaScript
     check2 = function(){
@@ -28,9 +28,16 @@
         
         //Output -> [ 'sinha' ] [ 'sinha' ]
 ```
-
+![copy_by_ref](static/copybyref.jpg)
 
 ## What is the difference between window, screen, and document in Javascript?
+
+- Window is the global object in JavaScript (JS) availble through browser. It sits on the top. Think of it as an all encapsulating box consisting of other objects and methods that can be manipulated using JS.
+  - Methods include `alert` and `prompt`. Use `console.dir(window)` for complete list of methods and properties of window.
+
+- Document object accessible through `window.document` gives access to DOM of website. It is this object that is dynamically edited through the backend scripting to customize webpages. Methods like `document.getElementById('string')` gives direct access to the content
+
+- Screen object accessible through `window.screen` gives information about the screen such as width - `screen.width` - and height - `screen.width`. This is important for correct preparation of layout and subsequent painting
 
 
 ### COMMANDS USED WERE - (THESE WERE DONE ON MAC TERMINAL)
