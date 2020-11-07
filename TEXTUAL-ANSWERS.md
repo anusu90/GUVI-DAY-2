@@ -58,3 +58,41 @@
 13. sudo rm guvi.txt *Runs this command with superuser privileges*
 14. rmdir guvi -> *Deletes the empty directory guvi*
 15. node guvi.js -> *Runs the JS code in the terminal. This can be run only after installing node*
+
+
+## A DIVE INTO OBJECTS OF JAVASCRIPT
+
+Before we move ahead we need to answer what is an *Object*. Lets draw an analogy between Objects and a Car.
+
+Just like car has many properties - engine, wheels, chasis among others an object can also have many aka properties. This can further go on in a hierarchial way. Just like engine of car has properties of its own - torque, fuel-efficiency, similarly there can be other objects inside an object, which in turn have their own defining features.
+
+let us say we have a 'Red Coloured Audi A7'. We would want to know about the engine of the car, similar queries will need to be done about an object of JS too. 
+
+```JavaScript
+    let car ={
+        name: 'AudiA7',
+        engine: '3000cc',
+        color: 'Red',
+        wheel: '190'};
+
+    // TO ACCESS THE 'PROPERTIES' WE MAKE FOLLOWING QUERIES
+
+    console.log(car.name)
+    console.log(car.wheel)
+```
+Now, the point of the car is to move around and reach from one place to another, that is, there are functional aspects of having a car. Same goes with JS Objects, the functions in this case are called `methods`.
+
+```JavaScript
+    let car ={
+        name: 'AudiA7',
+        engine: '3000cc',
+        color: 'Red',
+        wheel: '190',
+        wheelSize: function(){
+            return `The size of the wheel is ${this.wheel} mm`
+            }
+    }
+
+    // TO ACCESS THE METHOD WE DO THE FOLLOWING
+
+    console.log(car.wheelSize())
